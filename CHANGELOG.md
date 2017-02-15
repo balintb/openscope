@@ -27,7 +27,7 @@
 
 ### Features
 - Fixes an instance of two runways called "34R" in Shanghai Pudong [#149](https://github.com/openscope/openscope/issues/149)
-
+- Updates Boston Logan Intl. (KBOS) - Updated procedures, added video map, modified airspace, realistic traffic [#228](https://github.com/openscope/openscope/issues/228)
 
 
 
