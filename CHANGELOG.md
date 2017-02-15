@@ -13,10 +13,8 @@
 
 
 ### Features
-
-
-
-
+- Fixes an instance of two runways called "34R" in Shanghai Pudong [#149](https://github.com/openscope/openscope/issues/149)
+- Updates Dublin (EIDW) - Improved procedures, add terrain, modified airspace, realistic traffic [#208](https://github.com/openscope/openscope/issues/208)
 
 
 
