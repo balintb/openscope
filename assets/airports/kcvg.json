@@ -109,5 +109,24 @@
 		],
 		"delay": [10, 10],
 		"ils": [true, true]
-	}]
+	}],
+	"sids": {
+		"BLGRS2.FLM": {
+			"icao": "FLM",
+			"name": "Bluegrass Fallmouth",
+			"rwy": {
+				"09": [],
+				"18L": [],
+				"18R": [],
+				"18C": [],
+				"27": [],
+				"36L": [],
+				"36C": [],
+				"36R": []
+			},
+			"draw": [
+				["DRUSS", "FLM"]
+			]
+		}
+	}
 }
