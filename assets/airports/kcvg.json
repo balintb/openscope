@@ -178,6 +178,42 @@
 			"draw": [
 				["DRUSS", "FLM", "SILKS", "CHCLL", "PONIE", "IIU", "SKINN", "BWG"]
 			]
+		},
+		"CVG4.MIE": {
+			"icao": "MIE",
+			"name": "Cincinnati Four Muncie",
+			"rwy": {
+				"09": [],
+				"18L": [],
+				"18R": [],
+				"18C": [],
+				"27": [],
+				"36L": [],
+				"36C": [],
+				"36R": []
+			},
+			"draw": [
+				["VACUB", "MIE"],
+				["NICID", "MIE"]
+			]
+		},
+		"CVG4.RID": {
+			"icao": "RID",
+			"name": "Cincinnati Four Richmond",
+			"rwy": {
+				"09": [],
+				"18L": [],
+				"18R": [],
+				"18C": [],
+				"27": [],
+				"36L": [],
+				"36C": [],
+				"36R": []
+			},
+			"draw": [
+				["VACUB", "RID"],
+				["NICID", "RID"]
+			]
 		}
 	}
 }
