@@ -159,7 +159,7 @@
 				"36R": []
 			},
 			"draw": [
-				["DRUSS", "FLM", "SILKS", "CHCLL", "PONIE", "IIU"]
+				["DRUSS", "SILKS", "CHCLL", "PONIE", "IIU"]
 			]
 		},
 		"BLGRS2.BWG": {
@@ -176,7 +176,7 @@
 				"36R": []
 			},
 			"draw": [
-				["DRUSS", "FLM", "SILKS", "CHCLL", "PONIE", "IIU", "SKINN", "BWG"]
+				["DRUSS", "SILKS", "CHCLL", "PONIE", "SKINN", "BWG"]
 			]
 		},
 		"CVG4.MIE": {
