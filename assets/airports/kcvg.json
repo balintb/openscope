@@ -9,11 +9,11 @@
 	"icao": "KCVG",
 	"iata": "CVG",
 	"magnetic_north": -4,
-	"ctr_radius": 200,
-	"ctr_ceiling": 20000,
+	"ctr_radius": 175,
+	"ctr_ceiling": 25000,
 	"initial_alt": 10000,
 	"position": ["N39d2.93", "W084d40.07", "896ft"],
-	"rr_radius_nm": 200,
+	"rr_radius_nm": 175,
 	"rr_center": ["N39d00.96", "W84d42.20"],
 	"has_terrain": false,
 	"wind": {
@@ -61,66 +61,53 @@
 		"ZABAL": ["N39d32.12", "W85d55.09"],
 		"MACES": ["N40d00.22", "W86d43.38"]
 	},
-	"runways": [
-	{
+	"runways": [{
 		"name": ["09", "27"],
-		"name_offset":
-		[
+		"name_offset": [
 			[0, 0],
 			[0, 0]
 		],
-		"end": 
-		[
+		"end": [
 			["N39d2.78", "W84d41.71", "883.3ft"],
 			["N39d2.78", "W84d39.17", "874.9ft"]
 		],
 		"delay": [10, 10],
 		"ils": [true, true]
-	},
-	{
+	}, {
 		"name": ["18C", "36C"],
-		"name_offset": 
-		[
+		"name_offset": [
 			[0, 0],
 			[0, 0]
 		],
-		"end": 
-		[
+		"end": [
 			["N39d3.88", "W84d40.12", "874.6ft"],
 			["N39d2.07", "W84d40.12", "840.9ft"]
 		],
 		"delay": [10, 10],
 		"ils": [true, true]
-	},
-	{
+	}, {
 		"name": ["18L", "36R"],
-		"name_offset":
-		[
+		"name_offset": [
 			[0, 0],
 			[0, 0]
 		],
-		"end":
-		[
+		"end": [
 			["N39d3.35", "W84d38.80", "886.2ft"],
 			["N39d1.70", "W84d38.81", "896.2ft"]
 		],
 		"delay": [10, 10],
 		"ils": [true, true]
-	},
-	{
+	}, {
 		"name": ["18R", "36L"],
-		"name_offset": 
-		[
+		"name_offset": [
 			[0, 0],
 			[0, 0]
 		],
-		"end": 
-		[
+		"end": [
 			["N39d4.25", "W84d41.02", "865.4ft"],
 			["N39d2.94", "W84d41.03", "873.4ft"]
 		],
 		"delay": [10, 10],
 		"ils": [true, true]
-	}
-	]
+	}]
 }
