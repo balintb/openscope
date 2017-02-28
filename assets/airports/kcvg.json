@@ -63,50 +63,26 @@
 	},
 	"runways": [{
 		"name": ["09", "27"],
-		"name_offset": [
-			[0, 0],
-			[0, 0]
-		],
-		"end": [
-			["N39d2.78", "W84d41.71", "883.3ft"],
-			["N39d2.78", "W84d39.17", "874.9ft"]
-		],
+		"name_offset": [[0, 0],[0, 0]],
+		"end": [["N39d2.78", "W84d41.71", "883.3ft"],["N39d2.78", "W84d39.17", "874.9ft"]],
 		"delay": [10, 10],
 		"ils": [true, true]
 	}, {
 		"name": ["18C", "36C"],
-		"name_offset": [
-			[0, 0],
-			[0, 0]
-		],
-		"end": [
-			["N39d3.88", "W84d40.12", "874.6ft"],
-			["N39d2.07", "W84d40.12", "840.9ft"]
-		],
+		"name_offset": [[0, 0],[0, 0]],
+		"end": [["N39d3.88", "W84d40.12", "874.6ft"],["N39d2.07", "W84d40.12", "840.9ft"]],
 		"delay": [10, 10],
 		"ils": [true, true]
 	}, {
 		"name": ["18L", "36R"],
-		"name_offset": [
-			[0, 0],
-			[0, 0]
-		],
-		"end": [
-			["N39d3.35", "W84d38.80", "886.2ft"],
-			["N39d1.70", "W84d38.81", "896.2ft"]
-		],
+		"name_offset": [[0, 0],[0, 0]],
+		"end": [["N39d3.35", "W84d38.80", "886.2ft"],["N39d1.70", "W84d38.81", "896.2ft"]],
 		"delay": [10, 10],
 		"ils": [true, true]
 	}, {
 		"name": ["18R", "36L"],
-		"name_offset": [
-			[0, 0],
-			[0, 0]
-		],
-		"end": [
-			["N39d4.25", "W84d41.02", "865.4ft"],
-			["N39d2.94", "W84d41.03", "873.4ft"]
-		],
+		"name_offset": [[0, 0],[0, 0]],
+		"end": [["N39d4.25", "W84d41.02", "865.4ft"],["N39d2.94", "W84d41.03", "873.4ft"]],
 		"delay": [10, 10],
 		"ils": [true, true]
 	}],
@@ -117,39 +93,19 @@
 			"rwy": {
 				"09": [],
 				"18L": [],
-				"18R": [
-					["DRUSS", "A40+"]
-				],
+				"18R": [["DRUSS", "A40+"]],
 				"18C": [],
 				"27": [],
-				"36L": [
-					["VACUB", "A40+"]
-				],
-				"36C": [
-					["NICID", "A40+"]
-				],
+				"36L": [["VACUB", "A40+"]],
+				"36C": [["NICID", "A40+"]],
 				"36R": []
 			},
 			"body": ["CVG"],
 			"exitPoints": {
-				"HYK": [
-					["KENLN", "A80+"],
-					["HYK"]
-				],
-				"IIU": [
-					["PONIE", "A100+"],
-					["IIU"]
-				],
-				"BWG": [
-					["PONIE", "A100+"],
-					["IIU", "A210+"],
-					["SKINN", "A210+"],
-					["BWG"]
-				],
-				"MIE": [
-					["VACUB", "A40+"],
-					["MIE"]
-				]
+				"FLM": [["DRUSS", "A40+"], ["FLM"]],
+				"HYK": [["DRUSS", "A40+"], ["KENLN", "A80+"], ["HYK"]],
+				"IIU": [["DRUSS", "A40+"], ["PONIE", "A100+"], ["IIU"]],
+				"BWG": [["DRUSS", "A40+"], ["PONIE", "A100+"], ["IIU", "A210+"], ["SKINN", "A210+"], ["BWG"]]
 			},
 			"draw": [
 				["DRUSS", "FLM*"],
@@ -159,26 +115,21 @@
 			]
 		},
 		"spawnPatterns": {
+			"origin": "KCVG",
+			"destination": "",
+			"category": "departure",
+			"route": "CVG.BLGRS2.FLM",
+			"altitude": 0,
+			"speed": 0,
+			"method": "random",
+			"rate": 8,
 			"airlines": [
 				["dal", 51],
 				["aal", 17],
 				["ual", 11],
 				["aca", 2],
 				["swa", 1]
-			],
-			"destination": "",
-			"origin": "KCVG",
-			"category": "departure",
-			"route": [
-				["DRUSS", "FLM"],
-				["DRUSS", "KENLN", "HYK"],
-				["DRUSS", "SILKS", "PONIE", "IIU"],
-				["DRUSS", "SILKS", "PONIE", "SKINN", "BWG"]
-			],
-			"altitude": "",
-			"method": "random",
-			"rate": 8,
-			"speed": ""
+			]
 		}
 	}
 }
