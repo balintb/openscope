@@ -157,6 +157,20 @@
 				["DRUSS", "SILKS", "PONIE", "IIU*"],
 				["DRUSS", "SILKS", "PONIE", "SKINN", "BWG*"]
 			]
+		},
+		"departures": {
+			"destinations": [
+				["FLM", "HYK", "IIU", "BWG"]
+			],
+			"type": "random",
+			"frequency": 8,
+			"airlines": [
+				["dal", 51],
+				["aal", 17],
+				["ual", 11],
+				["aca", 2],
+				["swa", 1]
+			]
 		}
 	}
 }
