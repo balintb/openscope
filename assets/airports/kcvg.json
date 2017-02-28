@@ -13,7 +13,7 @@
 	"ctr_ceiling": 20000,
 	"initial_alt": 10000,
 	"position": ["N39d2.93", "W084d40.07", "896ft"],
-	"rr_radius_nm": 30,
+	"rr_radius_nm": 80,
 	"rr_center": ["N39d00.96", "W84d42.20"],
 	"has_terrain": false,
 	"wind": {
