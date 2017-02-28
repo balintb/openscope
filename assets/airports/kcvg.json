@@ -117,19 +117,39 @@
 			"rwy": {
 				"09": [],
 				"18L": [],
-				"18R": ["DRUSS"],
+				"18R": [
+					["DRUSS", "A40+"]
+				],
 				"18C": [],
 				"27": [],
-				"36L": ["VACUB"],
-				"36C": ["NICID"],
+				"36L": [
+					["VACUB", "A40+"]
+				],
+				"36C": [
+					["NICID", "A40+"]
+				],
 				"36R": []
 			},
 			"body": ["CVG"],
 			"exitPoints": {
-				"HYK": ["KENLN", "HYK"],
-				"IIU": ["PONIE", "IIU"],
-				"BWG": ["PONIE", "IIU", "SKINN", "BWG"],
-				"MIE": ["VACUB", "MIE"]
+				"HYK": [
+					["KENLN", "A80+"],
+					["HYK"]
+				],
+				"IIU": [
+					["PONIE", "A100+"],
+					["IIU"]
+				],
+				"BWG": [
+					["PONIE", "A100+"],
+					["IIU", "A210+"],
+					["SKINN", "A210+"],
+					["BWG"]
+				],
+				"MIE": [
+					["VACUB", "A40+"],
+					["MIE"]
+				]
 			},
 			"draw": [
 				["DRUSS", "FLM*"],
