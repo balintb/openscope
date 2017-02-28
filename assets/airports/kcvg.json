@@ -173,110 +173,17 @@
 			]
 		}
 	},
-	"spawnPatterns": [{
-		"origin": "EBBR",
-		"destination": "",
-		"category": "departure",
-		"route": "EBBR.NORTH.NORTH",
-		"altitude": null,
-		"speed": null,
-		"method": "random",
-		"rate": 2,
+	"departures": {
+		"destinations": [
+		],
+		"type": "random",
+		"frequency": 16,
 		"airlines": [
-			["ual", 3],
-			["baw", 5],
-			["n/cessna", 4],
-			["bel", 6]
+			["dal", 51],
+			["aal", 17],
+			["ual", 11],
+			["aca", 2],
+			["swa", 1]
 		]
-	}, {
-		"origin": "EBBR",
-		"destination": "",
-		"category": "departure",
-		"route": "EBBR.EAST.EAST",
-		"altitude": null,
-		"speed": null,
-		"method": "random",
-		"rate": 2,
-		"airlines": [
-			["ual", 3],
-			["baw", 5],
-			["n/cessna", 4],
-			["bel", 6]
-		]
-	}, {
-		"origin": "EBBR",
-		"destination": "",
-		"category": "departure",
-		"route": "EBBR.SOUTH.SOUTH",
-		"altitude": null,
-		"speed": null,
-		"method": "random",
-		"rate": 2,
-		"airlines": [
-			["ual", 3],
-			["baw", 5],
-			["n/cessna", 4],
-			["bel", 6]
-		]
-	}, {
-		"origin": "EBBR",
-		"destination": "",
-		"category": "departure",
-		"route": "EBBR.WEST.WEST",
-		"altitude": null,
-		"speed": null,
-		"method": "random",
-		"rate": 2,
-		"airlines": [
-			["ual", 3],
-			["baw", 5],
-			["n/cessna", 4],
-			["bel", 6]
-		]
-	}, {
-		"origin": "",
-		"destination": "EBBR",
-		"category": "arrival",
-		"route": "TULNI..AKOVI..EBBR",
-		"altitude": [5000, 7000],
-		"speed": 250,
-		"method": "random",
-		"rate": 10,
-		"airlines": [
-			["ual", 2],
-			["baw", 5],
-			["n/fastGA", 20],
-			["bel", 7]
-		]
-	}, {
-		"origin": "",
-		"destination": "EBBR",
-		"category": "arrival",
-		"route": "BATTY..BR205..FLO..EBBR",
-		"altitude": [5000, 8000],
-		"speed": 250,
-		"method": "random",
-		"rate": 10,
-		"airlines": [
-			["ual", 2],
-			["baw", 5],
-			["n/fastGA", 20],
-			["bel", 7]
-		]
-	}, {
-		"origin": "",
-		"destination": "EBBR",
-		"category": "arrival",
-		"route": "KOK..NIK..ANT..EBBR",
-		"altitude": [6000, 7000],
-		"speed": 250,
-		"method": "random",
-		"rate": 15,
-		"airlines": [
-			["ual", 10],
-			["baw", 10],
-			["n/fastGA", 1],
-			["bel", 12]
-		]
-	}]
+	}
 }
