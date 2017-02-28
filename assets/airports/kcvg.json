@@ -111,9 +111,9 @@
 		"ils": [true, true]
 	}],
 	"sids": {
-		"BLGRS2.FLM": {
-			"icao": "FLM",
-			"name": "Bluegrass Fallmouth",
+		"BLGRS2": {
+			"icao": "BLGRS2",
+			"name": "Bluegrass Two",
 			"rwy": {
 				"09": [],
 				"18L": [],
@@ -124,95 +124,26 @@
 				"36C": [],
 				"36R": []
 			},
-			"draw": [
-				["DRUSS", "FLM"]
-			]
-		},
-		"BLGRS2.HYK": {
-			"icao": "HYK",
-			"name": "Bluegrass Lexington",
-			"rwy": {
-				"09": [],
-				"18L": [],
-				"18R": [],
-				"18C": [],
-				"27": [],
-				"36L": [],
-				"36C": [],
-				"36R": []
+			"body": [
+				["KENLN", "HYK"],
+				["PONIE", "IIU"],
+				["VACUB", "MIE"]
+			],
+			"exitPoints": {
+				"HYK": ["KENLN", "HYK"],
+				"IIU": ["PONIE", "IIU"],
+				"BWG": ["PONIE", "IIU", "SKINN", "BWG"],
+				"MIE": ["VACUB", "MIE"]
 			},
 			"draw": [
-				["DRUSS", "FLM", "KENLN", "HYK"]
-			]
-		},
-		"BLGRS2.IIU": {
-			"icao": "IIU",
-			"name": "Bluegrass Louisville",
-			"rwy": {
-				"09": [],
-				"18L": [],
-				"18R": [],
-				"18C": [],
-				"27": [],
-				"36L": [],
-				"36C": [],
-				"36R": []
-			},
-			"draw": [
-				["DRUSS", "SILKS", "CHCLL", "PONIE", "IIU"]
-			]
-		},
-		"BLGRS2.BWG": {
-			"icao": "BWG",
-			"name": "Bluegrass Bowling Green",
-			"rwy": {
-				"09": [],
-				"18L": [],
-				"18R": [],
-				"18C": [],
-				"27": [],
-				"36L": [],
-				"36C": [],
-				"36R": []
-			},
-			"draw": [
-				["DRUSS", "SILKS", "CHCLL", "PONIE", "SKINN", "BWG"]
-			]
-		},
-		"CVG4.MIE": {
-			"icao": "MIE",
-			"name": "Cincinnati Four Muncie",
-			"rwy": {
-				"09": [],
-				"18L": [],
-				"18R": [],
-				"18C": [],
-				"27": [],
-				"36L": [],
-				"36C": [],
-				"36R": []
-			},
-			"draw": [
-				["VACUB", "MIE"],
-				["NICID", "MIE"]
-			]
-		},
-		"CVG4.RID": {
-			"icao": "RID",
-			"name": "Cincinnati Four Richmond",
-			"rwy": {
-				"09": [],
-				"18L": [],
-				"18R": [],
-				"18C": [],
-				"27": [],
-				"36L": [],
-				"36C": [],
-				"36R": []
-			},
-			"draw": [
-				["VACUB", "RID"],
-				["NICID", "RID"]
+				["DRUSS", "FLM*"],
+				["DRUSS", "KENLN", "HYK*"],
+				["DRUSS", "SILKS", "PONIE", "IIU*"],
+				["DRUSS", "SILKS", "PONIE", "SKINN", "BWG*"],
+				["VACUB", "RID*"],
+				["NICID", "RID*"],
+				["VACUB", "MIE*"],
+				["NICID", "MIE*"]
 			]
 		}
 	}
