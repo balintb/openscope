@@ -171,6 +171,19 @@
 				["aca", 2],
 				["swa", 1]
 			]
+		},
+		"arrivals": {
+			"radial": 90,
+			"heading": 270,
+			"altitude": [6000, 8000],
+			"speed": 250,
+			"type": "random",
+			"frequency": 0,
+			"airlines": [
+				["ual", 2],
+				["baw", 5],
+				["n/fastGA", 1]
+			]
 		}
 	}
 }
