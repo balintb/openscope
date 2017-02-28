@@ -167,7 +167,7 @@
 				["swa", 1]
 			],
 			"destination": "",
-			"origin": "KSFO",
+			"origin": "KCVG",
 			"category": "departure",
 			"route": [
 				["DRUSS", "FLM"],
@@ -175,10 +175,10 @@
 				["DRUSS", "SILKS", "PONIE", "IIU"],
 				["DRUSS", "SILKS", "PONIE", "SKINN", "BWG"]
 			],
-			"altitude": null,
+			"altitude": "",
 			"method": "random",
 			"rate": 8,
-			"speed": null
+			"speed": ""
 		}
 	}
 }
