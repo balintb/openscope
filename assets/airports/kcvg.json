@@ -124,11 +124,7 @@
 				"36C": [],
 				"36R": []
 			},
-			"body": [
-				["KENLN", "HYK"],
-				["PONIE", "IIU"],
-				["VACUB", "MIE"]
-			],
+			"body": ["CVG"],
 			"exitPoints": {
 				"HYK": ["KENLN", "HYK"],
 				"IIU": ["PONIE", "IIU"],
@@ -141,9 +137,9 @@
 				["DRUSS", "SILKS", "PONIE", "IIU*"],
 				["DRUSS", "SILKS", "PONIE", "SKINN", "BWG*"],
 				["VACUB", "RID*"],
-				["NICID", "RID*"],
+				["NICID", "RID"],
 				["VACUB", "MIE*"],
-				["NICID", "MIE*"]
+				["NICID", "MIE"]
 			]
 		}
 	}
