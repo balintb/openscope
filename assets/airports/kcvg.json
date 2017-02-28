@@ -9,11 +9,11 @@
 	"icao": "KCVG",
 	"iata": "CVG",
 	"magnetic_north": -4,
-	"ctr_radius": 90,
-	"ctr_ceiling": 25000,
+	"ctr_radius": 80,
+	"ctr_ceiling": 20000,
 	"initial_alt": 10000,
 	"position": ["N39d2.93", "W084d40.07", "896ft"],
-	"rr_radius_nm": 90,
+	"rr_radius_nm": 80,
 	"rr_center": ["N39d00.96", "W84d42.20"],
 	"has_terrain": false,
 	"wind": {
@@ -59,7 +59,20 @@
 		"JODUB": ["N38d45.75", "W82d53.46"],
 		"LOVEY": ["N39d12.81", "W85d24.52"],
 		"ZABAL": ["N39d32.12", "W85d55.09"],
-		"MACES": ["N40d00.22", "W86d43.38"]
+		"MACES": ["N40d00.22", "W86d43.38"],
+		"CULED": ["N38d52.92", "W84d52.30"],
+		"FANSA": ["N38d57.25", "W84d42.76"],
+		"FEBLU": ["N38d53.86", "W84d41.08"],
+		"FLOEE": ["N38d57.40", "W84d40.15"],
+		"ZEGUL": ["N38d49.74", "W84d35.12"],
+		"CAMUM": ["N38d57.45", "W84d37.89"],
+		"FRTZY": ["N39d6.12", "W84d55.20"],
+		"CEMLA": ["N39d13.32", "W84d48.99"],
+		"EVAME": ["N39d13.38", "W84d43.66"],
+		"HAGSS": ["N39d9.40", "W84d38.80"],
+		"BOUMR": ["N39d6.29", "W84d52.23"],
+		"HOBAL": ["N39d10.13", "W84d45.43"],
+		"BONLE": ["N39d2.77", "W84d50.31"]
 	},
 	"runways": [{
 		"name": ["09", "27"],
@@ -111,120 +124,68 @@
 		"ils": [true, true]
 	}],
 	"sids": {
-		"BLGRS2": {
-			"icao": "BLGRS2",
-			"name": "Bluegrass Two",
+		"CHCLL": {
+			"icao": "CHCLL",
+			"name": "CHCLL",
 			"rwy": {
-				"09": [],
-				"18L": [],
-				"18R": [
-					["DRUSS", "A40+"]
-				],
-				"18C": [],
-				"27": [],
-				"36L": [
-					["VACUB", "A40+"]
-				],
-				"36C": [
-					["NICID", "A40+"]
-				],
-				"36R": []
+				"18L": ["CAMUM","ZEGUL"],
+				"18R": ["FANSA"],
+				"18C": [["FLOEE", "A14+"],"FEBLU"],
+				"27": [["BONLE", "A14+"],"CULED"],
+				"36L": ["HOBAL","BOUMR","CULED"],
+				"36C": ["HOBAL","BOUMR","CULED"],
+				"36R": [["HAGSS", "A14+"],"EVAME","CEMLA","FRTZY","CULED"]
 			},
-			"body": ["CVG"],
+			"body": [["CHCLL", "A85+"], ["PONIE", "A104+"], ["IIU", "A210+"], ["SKINN", "A210+"]],
 			"exitPoints": {
-				"FLM": [
-					["DRUSS", "A40+"],
-					["FLM"]
-				],
-				"HYK": [
-					["DRUSS", "A40+"],
-					["KENLN", "A80+"],
-					["HYK"]
-				],
-				"IIU": [
-					["DRUSS", "A40+"],
-					["PONIE", "A100+"],
-					["IIU"]
-				],
-				"BWG": [
-					["DRUSS", "A40+"],
-					["PONIE", "A100+"],
-					["IIU", "A210+"],
-					["SKINN", "A210+"],
-					["BWG"]
-				]
+				"IIU": ["PONIE","IIU"],
+				"BWG": ["PONIE","BWG"]
 			},
 			"draw": [
-				["DRUSS", "FLM*"],
-				["DRUSS", "KENLN", "HYK*"],
-				["DRUSS", "SILKS", "PONIE", "IIU*"],
-				["DRUSS", "SILKS", "PONIE", "SKINN", "BWG*"]
+				["BONLE", "CULED"],
+				["HOBAL", "BOUMR", "CULED"],
+				["HAGSS", "EVAME", "CEMLA", "FRTZY", "CULED"],
+				["CULED", "CHCLL"],
+				["FANSA", "CHCLL"],
+				["CAMUM", "ZEGUL", "CHCLL"],
+				["FLOEE", "FEBLU", "CHCLL"],
+				["CHCLL", "PONIE", "IIU*", "SKINN", "BWG*"]
 			]
-		},
-		"spawnPatterns": [{
-			"origin": "KCVG",
-			"destination": "",
-			"category": "departure",
-			"route": "KCVG.BLGRS2.FLM",
-			"altitude": 0,
-			"speed": 0,
-			"method": "random",
-			"rate": 4,
-			"airlines": [
-				["dal", 51],
-				["aal", 17],
-				["ual", 11],
-				["aca", 2],
-				["swa", 1]
-			]
-		}, {
-			"origin": "KCVG",
-			"destination": "",
-			"category": "departure",
-			"route": "KCVG.BLGRS2.HYK",
-			"altitude": 0,
-			"speed": 0,
-			"method": "random",
-			"rate": 4,
-			"airlines": [
-				["dal", 51],
-				["aal", 17],
-				["ual", 11],
-				["aca", 2],
-				["swa", 1]
-			]
-		}, {
-			"origin": "KCVG",
-			"destination": "",
-			"category": "departure",
-			"route": "KCVG.BLGRS2.IIU",
-			"altitude": 0,
-			"speed": 0,
-			"method": "random",
-			"rate": 4,
-			"airlines": [
-				["dal", 51],
-				["aal", 17],
-				["ual", 11],
-				["aca", 2],
-				["swa", 1]
-			]
-		}, {
-			"origin": "KCVG",
-			"destination": "",
-			"category": "departure",
-			"route": "KCVG.BLGRS2.BWG",
-			"altitude": 0,
-			"speed": 0,
-			"method": "random",
-			"rate": 4,
-			"airlines": [
-				["dal", 51],
-				["aal", 17],
-				["ual", 11],
-				["aca", 2],
-				["swa", 1]
-			]
-		}]
-	}
+		}
+	},
+	"spawnPatterns": [
+	{
+		"origin": "KCVG",
+		"destination": "",
+		"category": "departure",
+		"route": "KCVG.CHCLL.IIU",
+		"altitude": 0,
+		"speed": 0,
+		"method": "random",
+		"rate": 4,
+		"airlines": [
+			["dal", 51],
+			["aal", 17],
+			["ual", 11],
+			["aca", 2],
+			["swa", 1]
+		]
+	},
+	{
+		"origin": "KCVG",
+		"destination": "",
+		"category": "departure",
+		"route": "KCVG.CHCLL.BWG",
+		"altitude": 0,
+		"speed": 0,
+		"method": "random",
+		"rate": 4,
+		"airlines": [
+			["dal", 51],
+			["aal", 17],
+			["ual", 11],
+			["aca", 2],
+			["swa", 1]
+		]
+	}]
 }
