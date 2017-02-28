@@ -225,22 +225,6 @@
 				["aca", 2],
 				["swa", 1]
 			]
-		}, {
-			"origin": "",
-			"destination": "KCVG",
-			"category": "departure",
-			"route": "BWG.BLGRS2.KCVG",
-			"altitude": 10000,
-			"speed": 250,
-			"method": "random",
-			"rate": 4,
-			"airlines": [
-				["dal", 51],
-				["aal", 17],
-				["ual", 11],
-				["aca", 3],
-				["swa", 1]
-			]
 		}]
 	}
 }
