@@ -9,11 +9,11 @@
 	"icao": "KCVG",
 	"iata": "CVG",
 	"magnetic_north": -4,
-	"ctr_radius": 175,
+	"ctr_radius": 125,
 	"ctr_ceiling": 25000,
 	"initial_alt": 10000,
 	"position": ["N39d2.93", "W084d40.07", "896ft"],
-	"rr_radius_nm": 175,
+	"rr_radius_nm": 125,
 	"rr_center": ["N39d00.96", "W84d42.20"],
 	"has_terrain": false,
 	"wind": {
