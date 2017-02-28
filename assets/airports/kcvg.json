@@ -161,6 +161,23 @@
 			"draw": [
 				["DRUSS", "FLM", "SILKS", "CHCLL", "PONIE", "IIU"]
 			]
+		},
+		"BLGRS2.BWG": {
+			"icao": "BWG",
+			"name": "Bluegrass Bowling Green",
+			"rwy": {
+				"09": [],
+				"18L": [],
+				"18R": [],
+				"18C": [],
+				"27": [],
+				"36L": [],
+				"36C": [],
+				"36R": []
+			},
+			"draw": [
+				["DRUSS", "FLM", "SILKS", "CHCLL", "PONIE", "IIU", "SKINN", "BWG"]
+			]
 		}
 	}
 }
