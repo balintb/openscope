@@ -158,32 +158,35 @@
 				["DRUSS", "SILKS", "PONIE", "SKINN", "BWG*"]
 			]
 		},
-		"departures": {
-			"destinations": [
-				["FLM", "HYK", "IIU", "BWG"]
-			],
-			"type": "random",
-			"frequency": 8,
+		"spawnPatterns": {
 			"airlines": [
-				["dal", 51],
-				["aal", 17],
-				["ual", 11],
+				["ual", 10],
+				["aal", 8],
+				["dal", 6],
+				["ual/long", 5],
+				["aal/long", 2],
+				["dal/long", 2],
+				["swa", 5],
+				["asa", 3],
 				["aca", 2],
-				["swa", 1]
-			]
-		},
-		"arrivals": {
-			"radial": 90,
-			"heading": 270,
-			"altitude": [6000, 8000],
-			"speed": 250,
-			"type": "random",
-			"frequency": 0,
-			"airlines": [
-				["ual", 2],
-				["baw", 5],
-				["n/fastGA", 1]
-			]
+				["cpa", 2],
+				["baw/long", 2],
+				["ups", 1],
+				["fdx", 1],
+				["klm/long", 2],
+				["afr/long", 2],
+				["uae", 4],
+				["kal/long", 2],
+				["vir", 2]
+			],
+			"destination": "",
+			"origin": "KSFO",
+			"category": "departure",
+			"route": [],
+			"altitude": null,
+			"method": "random",
+			"rate": 8,
+			"speed": null
 		}
 	}
 }
