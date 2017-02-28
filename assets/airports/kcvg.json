@@ -125,7 +125,24 @@
 				"36R": []
 			},
 			"draw": [
-				["DRUSS", "FLM"]
+				["36R", "DRUSS", "FLM"]
+			]
+		},
+		"BLGRS2.HYK": {
+			"icao": "HYK",
+			"name": "Bluegrass Lexington",
+			"rwy": {
+				"09": [],
+				"18L": [],
+				"18R": [],
+				"18C": [],
+				"27": [],
+				"36L": [],
+				"36C": [],
+				"36R": []
+			},
+			"draw": [
+				["36R", "DRUSS", "FLM", "KENLN", "HYK"]
 			]
 		}
 	}
