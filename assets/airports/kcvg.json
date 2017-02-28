@@ -125,7 +125,7 @@
 				"36R": []
 			},
 			"draw": [
-				["36R", "DRUSS", "FLM"]
+				["DRUSS", "FLM"]
 			]
 		},
 		"BLGRS2.HYK": {
@@ -142,7 +142,7 @@
 				"36R": []
 			},
 			"draw": [
-				["36R", "DRUSS", "FLM", "KENLN", "HYK"]
+				["DRUSS", "FLM", "KENLN", "HYK"]
 			]
 		}
 	}
