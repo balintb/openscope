@@ -65,8 +65,10 @@
         "HAGOL": ["N39d34.15", "W84d35.60"],
         "HAGSS": ["N39d09.40", "W84d38.80"],
         "HERMM": ["N38d58.69", "W84d52.82"],
+        "HIPAS": ["N38d52.82", "W84d39.70"],
         "HOBAL": ["N39d10.13", "W84d45.43"],
         "HOBNO": ["N38d48.74", "W83d44.52"],
+        "HOMIX": ["N39d09.75", "W84d27.61"],
         "JBETH": ["N38d59.90", "W84d26.29"],
         "JBNCH": ["N39d34.88", "W85d01.35"],
         "JODUB": ["N38d45.75", "W82d53.46"],
@@ -87,39 +89,40 @@
         "ZEGUL": ["N38d49.74", "W84d35.12"],
         "ZUGLU": ["N38d55.55", "W84d45.20"]
     },
-    "runways": [{
-        "name": ["09", "27"],
-        "name_offset": [[0, 0], [0, 0]],
-        "end": [["N39d2.78", "W84d41.71", "883.3ft"], ["N39d2.78", "W84d39.17", "874.9ft"]],
-        "delay": [10, 10],
-        "ils": [true, true]
-    },
-		{
-        "name": ["18C", "36C"],
-        "name_offset": [[0, 0], [0, 0]],
-        "end": [["N39d3.88", "W84d40.12", "874.6ft"], ["N39d2.07", "W84d40.12", "840.9ft"]],
-        "delay": [10, 10],
-        "ils": [true, true]
-    },
-		{
-        "name": ["18L", "36R"],
-        "name_offset": [[0, 0], [0, 0]],
-        "end": [["N39d3.35", "W84d38.80", "886.2ft"], ["N39d1.70", "W84d38.81", "896.2ft"]],
-        "delay": [10, 10],
-        "ils": [true, true]
-    },
-		{
-        "name": ["18R", "36L"],
-        "name_offset": [[0, 0], [0, 0]],
-        "end": [["N39d4.25", "W84d41.02", "865.4ft"], ["N39d2.94", "W84d41.03", "873.4ft"]],
-        "delay": [10, 10],
-        "ils": [true, true]
-    }
+    "runways": [
+        {
+            "name": ["09", "27"],
+            "name_offset": [[0, 0], [0, 0]],
+            "end": [["N39d2.78", "W84d41.71", "883.3ft"], ["N39d2.78", "W84d39.17", "874.9ft"]],
+            "delay": [10, 10],
+            "ils": [true, true]
+        },
+	    {
+            "name": ["18C", "36C"],
+            "name_offset": [[0, 0], [0, 0]],
+            "end": [["N39d3.88", "W84d40.12", "874.6ft"], ["N39d2.07", "W84d40.12", "840.9ft"]],
+            "delay": [10, 10],
+            "ils": [true, true]
+        },
+	    {
+            "name": ["18L", "36R"],
+            "name_offset": [[0, 0], [0, 0]],
+            "end": [["N39d3.35", "W84d38.80", "886.2ft"], ["N39d1.70", "W84d38.81", "896.2ft"]],
+            "delay": [10, 10],
+            "ils": [true, true]
+        },
+	    {
+            "name": ["18R", "36L"],
+            "name_offset": [[0, 0], [0, 0]],
+            "end": [["N39d4.25", "W84d41.02", "865.4ft"], ["N39d2.94", "W84d41.03", "873.4ft"]],
+            "delay": [10, 10],
+            "ils": [true, true]
+        }
     ],
     "sids": {
         "BNGLE4": {
             "icao": "BNGLE4",
-            "name": "Bangle Four",
+            "name": "Bngle Four",
             "rwy": {
                 "18L": ["CAMUM", "ANTEO", "CODKO", "JBETH", "FOPAS"],
                 "18C": [["FLOEE", "A14+"], "ZUGLU", "MIPIE", "HERMM", "AMMOT"],
@@ -148,7 +151,7 @@
         },
         "CHCLL4": {
             "icao": "CHCLL4",
-            "name": "Churchill Four",
+            "name": "Chcll Four",
             "rwy": {
                 "18L": ["CAMUM", "ZEGUL"],
                 "18R": ["FANSA"],
@@ -173,40 +176,77 @@
                 ["FLOEE", "FEBLU", "CHCLL"],
                 ["CHCLL", "PONIE", "IIU*", "SKINN", "BWG*"]
             ]
+        },
+        "GIPLE5": {
+            "icao": "GIPLE5",
+            "name": "Giple Five",
+            "rwy": {
+                "18L": ["CAMUM", "ANTEO", "CODKO"],
+                "18C": ["FLOEE", "ANTEO", "CODKO"],
+                "18R": ["FANSA", "HIPAS"],
+                "27": [["BONLE", "A14+"], "CULED", "HIPAS"],
+                "36R": ["HAGSS", "HOMIX"],
+                "36C": ["CIGMA", "HOMIX"],
+                "36L": ["CIGMA", "HOMIX"]
+            },
+            "body": [["GIPLE", "A106+"], ["HOBNO", "A170+"]],
+            "exitPoints": {
+                "YRK": [["RHOMM", "A180+"], "YRK"],
+                "JODUB": [["RHOMM", "A230+"], "MISSN", "JODUB"],
+                "HVQ": [["RHOMM", "A230+"], "MISSN", "JODUB", "HVQ"],
+                "BKW": [["RHOMM", "A230+"], "MISSN", "JODUB", "BKW"]
+            },
+            "draw": [
+                ["CAMUM", "ANTEO"],
+                ["FLOEE", "ANTEO"],
+                ["ANTEO", "CODKO", "GIPLE"],
+                ["FANSA", "HIPAS"],
+                ["BONLE", "CULED", "HIPAS"],
+                ["HIPAS", "GIPLE"],
+                ["HAGSS", "HOMIX"],
+                ["CIGMA", "HOMIX"],
+                ["HOMIX", "GIPLE"],
+                ["GIPLE", "HOBNO", "RHOMM"],
+                ["RHOMM", "YRK*"],
+                ["RHOMM", "MISSN", "JODUB*"],
+                ["JODUB", "HVQ*"],
+                ["JODUB", "BKW*"]
+            ]
+    },
+    "spawnPatterns": [
+        {
+            "origin": "KCVG",
+            "destination": "",
+            "category": "departure",
+            "route": "KCVG.CHCLL4.IIU",
+            "altitude": 0,
+            "speed": 0,
+            "method": "random",
+            "rate": 4,
+            "airlines": [
+                ["dal", 51],
+                ["aal", 17],
+                ["ual", 11],
+                ["aca", 2],
+                ["swa", 1]
+            ]
+        },
+	    {
+            "origin": "KCVG",
+            "destination": "",
+            "category": "departure",
+            "route": "KCVG.CHCLL4.BWG",
+            "altitude": 0,
+            "speed": 0,
+            "method": "random",
+            "rate": 4,
+            "airlines": [
+                ["dal", 51],
+                ["aal", 17],
+                ["ual", 11],
+                ["aca", 2],
+                ["swa", 1]
+            ]
         }
-    },
-    "spawnPatterns": [{
-        "origin": "KCVG",
-        "destination": "",
-        "category": "departure",
-        "route": "KCVG.CHCLL4.IIU",
-        "altitude": 0,
-        "speed": 0,
-        "method": "random",
-        "rate": 4,
-        "airlines": [
-            ["dal", 51],
-            ["aal", 17],
-            ["ual", 11],
-            ["aca", 2],
-            ["swa", 1]
-        ]
-    },
-		{
-        "origin": "KCVG",
-        "destination": "",
-        "category": "departure",
-        "route": "KCVG.CHCLL4.BWG",
-        "altitude": 0,
-        "speed": 0,
-        "method": "random",
-        "rate": 4,
-        "airlines": [
-            ["dal", 51],
-            ["aal", 17],
-            ["ual", 11],
-            ["aca", 2],
-            ["swa", 1]
-        ]
-    }]
+    ]
 }
