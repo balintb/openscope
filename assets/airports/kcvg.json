@@ -146,7 +146,8 @@
                 ["AMMOT", "BNGLE"],
                 ["HAGSS", "BNGLE"],
                 ["CIGMA", "DJOHN", "BNGLE"],
-                ["BNGLE", "RIKLE*", "DJB*"]
+                ["BNGLE", "RIKLE*"],
+                ["RIKLE", "DJB*"]
             ]
         },
         "CHCLL4": {
@@ -174,7 +175,8 @@
                 ["FANSA", "CHCLL"],
                 ["CAMUM", "ZEGUL", "CHCLL"],
                 ["FLOEE", "FEBLU", "CHCLL"],
-                ["CHCLL", "PONIE", "IIU*", "SKINN", "BWG*"]
+                ["CHCLL", "PONIE", "IIU*"],
+                ["IIU", "SKINN", "BWG*"]
             ]
         },
         "GIPLE5": {
